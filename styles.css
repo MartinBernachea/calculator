@@ -19,7 +19,7 @@ body {
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
-.calculator > button {
+.calculator button {
     cursor: pointer;
     outline: none;
     border: solid 1px #fff;
@@ -27,7 +27,7 @@ body {
     font-size: 2rem;
 }
 
-.calculator > button:hover {
+.calculator button:hover {
     background-color: rgba(228, 229, 230, .9);
 }
 
